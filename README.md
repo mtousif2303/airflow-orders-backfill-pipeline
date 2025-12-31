@@ -31,10 +31,15 @@ The pipeline is designed for **manual and ad-hoc execution**, enabling safe repr
 .
 ├── dags/
 │   └── orders_backfilling_dag.py
+
 ├── spark/
+
 │   └── orders_data_process.py
+
 ├── configs/
+
 │   └── airflow_variables_example.json
+
 └── README.md
 
 ---
